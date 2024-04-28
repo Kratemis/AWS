@@ -1,5 +1,6 @@
-# Step function
-## Module objetive
+# Step function
+## Module objetive
+
 This module is designed to provide a practical understanding of AWS Step Functions, a powerful tool for orchestrating microservices on the AWS cloud. Through a concrete example that processes a list of numbers and performs mathematical operations based on specific conditions (even and odd numbers), this module aims to:
 
 - *Demonstrate the creation and configuration of state machines:* You will learn how to define and configure a state machine that coordinates multiple Lambda functions to perform specific tasks based on data input.
