@@ -2,6 +2,8 @@ resource "aws_sfn_state_machine" "example_step_function" {
   name     = "hello-world-step-function"
   role_arn = aws_iam_role.step_function_role.arn
 
+  tags = var.tags
+
   definition = <<EOF
 {
   "Comment": "A workflow to check if a number is even or odd and return a message.",
