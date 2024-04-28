@@ -1,2 +1,2 @@
 # AWS
-AWS Terraform repository for testing
+AWS Terraform repository for testing/learning
