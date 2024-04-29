@@ -10,3 +10,11 @@ data "aws_caller_identity" "current" {}
 #     Example = "step_functions"
 #   }
 # }
+
+# module "api" {
+#   source = "./examples/api"
+
+#   tags = {
+#     Example = "api"
+#   }
+# }
