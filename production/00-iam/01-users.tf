@@ -3,5 +3,5 @@ resource "aws_iam_user" "terraform" {
 }
 
 resource "aws_iam_user" "my_user" {
-  name = "sergio"
+  name = "sergio_admin"
 }
